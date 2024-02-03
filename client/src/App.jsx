@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./index.scss";
-import Header from "./Components/Header/Header";
+import Header from "./components/Header/Header";
 import { Route, Routes } from "react-router-dom";
-import About from "./Components/About/About";
-import Home from "./Components/Home/Home";
+import About from "./components/About/About";
+import Home from "./features/Home/Home";
 
 const App = () => (
   <div>
