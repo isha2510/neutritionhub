@@ -8,16 +8,19 @@ import About from "./components/About/About";
 import Home from "./features/Home/Home";
 import RecipeDetail from "./features/Home/RecipeDetail";
 
-const App = () => (
-  <div>
-    <Header />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/recipe-detail" element={<RecipeDetail />} />
-    </Routes>
+const App = () => {
+  
+  return (
+    <div>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/recipe-detail" element={<RecipeDetail />} />
+      </Routes>
 
 
-  </div>
-);
+    </div>
+  );
+};
 export default App;
